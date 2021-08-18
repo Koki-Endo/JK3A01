@@ -20,7 +20,7 @@ public class TopPage extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		//--- 入出力用文字エンコード
+		//--- 入出力用文字エンコード設定
 		response.setCharacterEncoding("utf-8");
 		request.setCharacterEncoding("utf-8");
 
