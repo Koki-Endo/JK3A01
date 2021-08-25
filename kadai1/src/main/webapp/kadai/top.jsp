@@ -7,7 +7,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Insert title here</title>
+	<title>商品検索</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
