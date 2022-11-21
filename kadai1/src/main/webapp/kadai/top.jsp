@@ -1,14 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import="java.util.ArrayList" %>
 <%@ page import="java.util.List" %>
-<%@ page import="bean.Product" %>
+<%@ page import="java.util.ArrayList %>
+<%@ page import="bean.Product"%>
 <jsp:useBean id="data" class="bean.Product" scope="page" />
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>商品検索</title>
-	<link href="css/style.css" rel="stylesheet" type="text/css">
+<meta charset="UTF-8">
+<title>商品検索</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<header>
@@ -35,7 +35,7 @@
 				//--- 項目見出しの出力
 				out.println("<tr><th>ID</th><th>商品名</th><th>価格</th></tr>");
 				//--- 配列から１件ずつ表示　Productのメソッドを利用
-				for(Product p: ary) {
+				for (Product p : ary) {
 					out.println("<tr>");
 					out.println("<td>" + p.getId() + "</td>");
 					out.println("<td>" + p.getName() + "</td>");
