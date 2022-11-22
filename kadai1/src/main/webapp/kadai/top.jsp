@@ -25,7 +25,7 @@
 		<div id="products">
 			<%
 			//--- データを配列aryに受け取る
-			List<Product> ary = (ArrayList<Product>) request.getAttribute("data");
+			List<Product> ary = (List<Product>) request.getAttribute("data");
 			//--- データが無いかを配列の大きさ（size()）で判断
 			if (ary.size() == 0) {
 				out.println("<p>キーワードに該当するデータはありませんでした。</p>");
